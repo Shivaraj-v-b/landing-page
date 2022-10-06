@@ -16,6 +16,9 @@
   text-transform: capitalize;
   transition: all .2s linear;
 }
+a>{
+  border: 2px white;
+}
 
 *::selection{
   background:var(--red);
