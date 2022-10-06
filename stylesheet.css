@@ -16,8 +16,11 @@
   text-transform: capitalize;
   transition: all .2s linear;
 }
-a>{
-  border: 2px white;
+header .navbar .sorted a{
+  background: none;
+  border-radius: 20px;
+  border: 5px rgb(193, 158, 158); 
+  color:rgb(12, 1, 1);
 }
 
 *::selection{
@@ -83,7 +86,7 @@ header .logo{
 header .navbar a{
   font-size: 2rem;
   margin-left: 2.5rem;
-  color:#fff;
+  color:rgb(245, 245, 245);
 }
 
 header .navbar a:hover{
@@ -258,7 +261,7 @@ header .navbar a:hover{
   text-align: right;
 }
 
-.review .box-container{
+/*.review .box-container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -349,7 +352,7 @@ header .navbar a:hover{
 
 .pricing .box-container .box .btn{
   margin-top: 2rem;
-}
+}*/
 
 .contact{
   background:linear-gradient(#fff 50%, var(--black) 50.1%);
